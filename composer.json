@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/LaraChimp/mango-repo.git"
+            "url": "https://github.com/kenanlafrance/mango-repo.git"
         }
     ],
     "autoload": {
