@@ -1,5 +1,5 @@
 {
-    "name": "larachimp/mango-repo",
+    "name": "kenanl/mango-repo",
     "description": "Simple repository package for Laravel.",
     "keywords": ["php", "Laravel", "database", "repository", "pattern"],
     "license": "MIT",
