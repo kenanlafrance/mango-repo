@@ -17,10 +17,18 @@
         "role": "Original Author"
     }
 ],
+"repositories":[
+    {
+        {
+            "type": "vcs",
+            "url": "https://github.com/kenanlafrance/pine-annotations.git"
+        }   
+    }
+],
 "require": {
     "php": "^7.3|^8.0",
     "illuminate/support": "^9.0",
-    "larachimp/pine-annotations": "^3.0"
+    "kenanlafrance/pine-annotations": "^3.0"
 },
 "require-dev": {
     "mockery/mockery": "^1.4.3",
