@@ -1,44 +1,49 @@
 {
-    "name": "kenanl/mango-repo",
-    "description": "Simple repository package for Laravel.",
-    "keywords": ["php", "Laravel", "database", "repository", "pattern"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Percy Mamedy",
-            "email": "percymamedy@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/support": "^9.0",
-        "larachimp/pine-annotations": "^3.0"
+"name": "kenanlafrance/mango-repo",
+"description": "Fork of larachimp/mango-repo: Simple repository package for Laravel.",
+"type": "library",
+"keywords": ["php", "Laravel", "database", "repository", "pattern"],
+"homepage": "https://github.com/kenanlafrance/mango-repo",
+"license": "MIT",
+"authors": [
+    {
+        "name": "Kenan Lafrance",
+        "email": "your-email@example.com",
+        "role": "Fork Maintainer"
     },
-    "require-dev": {
-        "mockery/mockery": "^1.4.3",
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.3.3"
-	},
-    "autoload": {
-        "psr-4": {
-            "LaraChimp\\MangoRepo\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "LaraChimp\\MangoRepo\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "develop"
-        },
-        "laravel": {
-            "providers": [
-                "LaraChimp\\MangoRepo\\MangoRepoServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    {
+        "name": "Percy Mamedy",
+        "email": "percymamedy@gmail.com",
+        "role": "Original Author"
+    }
+],
+"require": {
+    "php": "^7.3|^8.0",
+    "illuminate/support": "^9.0",
+    "larachimp/pine-annotations": "^3.0"
+},
+"require-dev": {
+    "mockery/mockery": "^1.4.3",
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.3.3"
+},
+"autoload": {
+    "psr-4": {
+        "Kenanl\\MangoRepo\\": "src/"
+    }
+},
+"autoload-dev": {
+    "psr-4": {
+        "Kenanl\\MangoRepo\\Tests\\": "tests/"
+    }
+},
+"extra": {
+    "laravel": {
+        "providers": [
+            "Kenanl\\MangoRepo\\MangoRepoServiceProvider"
+        ]
+    }
+},
+"minimum-stability": "dev",
+"prefer-stable": true
 }
