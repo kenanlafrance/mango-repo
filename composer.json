@@ -35,18 +35,18 @@
 },
 "autoload": {
     "psr-4": {
-        "Kenanl\\MangoRepo\\": "src/"
+        "LaraChimp\\MangoRepo\\": "src/"
     }
 },
 "autoload-dev": {
     "psr-4": {
-        "Kenanl\\MangoRepo\\Tests\\": "tests/"
+        "LaraChimp\\MangoRepo\\Tests\\": "tests/"
     }
 },
 "extra": {
     "laravel": {
         "providers": [
-            "Kenanl\\MangoRepo\\MangoRepoServiceProvider"
+            "LaraChimp\\MangoRepo\\MangoRepoServiceProvider"
         ]
     }
 },
